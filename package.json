@@ -12,6 +12,7 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@nuxtjs/i18n": "^9.5.3",
 		"better-sqlite3": "^11.9.0",
 		"drizzle-orm": "^0.40.0",
 		"nuxt": "^3.16.0",

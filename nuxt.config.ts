@@ -15,5 +15,22 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["nitro-cloudflare-dev"]
+  modules: ['@nuxtjs/i18n', "nitro-cloudflare-dev"],
+  i18n: {
+    lazy: true,
+    locales: [
+      {
+        code: 'en',
+        language: 'en',
+        name: 'English',
+        file: 'en.json'
+      },
+      {
+        code: 'zh-Hans',
+        language: 'zh',
+        name: '简体中文',
+        file: 'zh-hans.json'
+      }
+    ]
+  }
 })

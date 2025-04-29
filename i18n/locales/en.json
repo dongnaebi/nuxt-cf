@@ -1,0 +1,4 @@
+{
+  "hello": "hello \n world",
+  "test": "test {0}bold{1}"
+}
